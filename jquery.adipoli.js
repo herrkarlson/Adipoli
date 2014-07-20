@@ -33,7 +33,7 @@
             $(this).wrap(function(){
                 return '<div class="adipoli-wrapper '+$(this).attr('class')+'" style="width:'+$(this).width()+'px; height:'+$(this).height()+'px;"/>';
             });
-            $(this).parent().append('<div class="adipoli-before '+$(this).attr('class')+'" style="display:none;width:'+$(this).width()+'px; height:'+$(this).height()+'px;"><img src="'+$(this).attr('src')+'"/></div>');
+            $(this).parent().append('<div class="adipoli-before '+$(this).attr('class')+'" style="display:none;width:'+$(this).width()+'px; height:'+$(this).height()+'px;"><img src="'+$(this).attr('src')+'" style="width:'+$(this).width()+'px"/></div>');
             $(this).parent().append('<div class="adipoli-after '+$(this).attr('class')+'" style="display:none;width:'+$(this).width()+'px; height:'+$(this).height()+'px;"></div>');
             //set start effect
             if(settings.startEffect=="transparent")
